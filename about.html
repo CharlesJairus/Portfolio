@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="about.css">
+  <title> </title>
+</head>
+<body>
+
+<div class="tabs">
+  <input class="input" name="tabs" type="radio" id="tab-1" checked="checked"/>
+  <label class="label" for="tab-1">Personal Information</label>
+  <div class="panel">
+    <h1>Charles Jairus Sales</h1>
+    <img src="aboutpic.jpg" alt="Arlina Design Image">
+    <p>
+      Allow me to introduce myself – a 21-year-old dreamer navigating the intricate landscapes of both code and life. Currently immersed in the world of computer science at CVSU-CCAT, my ambition knows no bounds as I aspire to carve my niche as a software engineer extraordinaire.
+
+      Beyond the syntax and algorithms, there's a burning desire within me to explore the vast expanse of our world. My passion extends beyond lines of code, reaching into the vibrant tapestry of cultures that make our planet unique.</p>
+    <p>Motto: "Unraveling the code of life, one adventure at a time – where the lines of programming and the journey of exploration intertwine to create a story uniquely my own."</p>
+  </div>
+  <input class="input" name="tabs" type="radio" id="tab-2"/>
+  <label class="label" for="tab-2">Education</label>
+  <div class="panel">
+    <h1>Education</h1>
+    <p>
+      Elementary - Rosario Elementary School<br>
+Highschool - Saint Agustine School - Tanza<br>
+Senior High School - San Sebastian College Recoletos<br>
+College - Cavite State University CCAT Campus
+    </p>
+  </div>
+  <input class="input" name="tabs" type="radio" id="tab-3"/>
+  <label class="label" for="tab-3">Achievements</label>
+  <div class="panel">
+    <h1>Achievements</h1>
+      <p>Kindergarten-2nd honor<br>
+          Grade 2 -2nd Honor<br>
+          Grade 4 - 3rd Honor<br>
+          Highschool <br>
+          GRADE 7 CHESS CHAMPION INTRAMS      <br>
+          GRADE 8 CHESS CHAMPION INTRAMS      <br>
+          GRADE 9 CHESS CHAMPION INTRAMS       <br>
+          GRADE 10 2 PLACER CHESS INTRAMS     </p>
+  </div>
+
+<div class="action" onclick="actionToggle();">
+  <span>+</span>
+  <ul>
+    <li><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111392.svg" alt="" width="25px">Share on Facebook</li>
+    <li><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg" alt="" width="25px">Share on GitHub</li>
+    <li><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384031.svg" alt="" width="25px">Share on Instagram</li>
+    <li><img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384030.svg" alt="" width="25px">Share on Linkedin</li>
+  </ul>
+</div>
+
+
+</div>
+
+<script type="text/javascript">
+  function actionToggle() {
+  const action = document.querySelector('.action');
+  action.classList.toggle('active')
+}
+
+</script>
+</body>
+</html>
